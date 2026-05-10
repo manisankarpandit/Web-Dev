@@ -1,0 +1,33 @@
+div{
+    height: 200px;
+    width: 300px;
+    background-color: aqua;
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: red; */
+    border: 5px solid red;
+    border-top:5px dashed blue;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    margin: 20px;
+}
+h1{
+    border-width: 2px;
+    border-style: double;
+    border-color: rgb(15, 251, 47);
+}
+button{
+    background-color: yellowgreen;
+    color: red;
+     font-weight: bold;
+     padding-left:10px ;
+     padding-right: 10px;
+     border-radius: 10px;
+     
+}
+button:hover{
+    background-color: brown;
+    color: wheat;
+}

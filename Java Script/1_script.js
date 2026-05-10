@@ -1,0 +1,1 @@
+console.log("Strick is comming");

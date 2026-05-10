@@ -1,0 +1,36 @@
+.box{
+    height: 100px;
+    width: 300px;
+    background-color: pink;
+    color: rgb(242, 241, 244);
+
+    animation-name: fontAnimation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+    animation-name:colorAnimate;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes fontAnimation{
+    from{
+        font-size: 10px;
+    }
+    to{
+        font-size: 40px;
+    }
+}
+@keyframes colorAnimate{
+    from{
+        background-color: rgb(255, 0, 0);
+    }
+    to{
+       background-color:   rgb(58, 43, 226);
+    }
+}

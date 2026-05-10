@@ -1,0 +1,83 @@
+/* universal selecter */
+*{
+    font-family: 'Courier New';
+    background-color: rgb(209, 241, 241);
+}
+h1,h3{
+    color: #b92b27;
+}
+/* id selector */
+#login{
+    background-color: white;
+    color: violet;
+}
+#signup{
+    color: white;
+    background-color: violet;
+}
+/* class selecter */
+.upvote{
+     background-color: green;
+     color: white;
+}
+/* descantdent selecter */
+.post a{
+    color: rgb(67, 25, 202);
+    background-color: yellow;
+}
+nav ul li a{
+    color: rgb(21, 175, 36);
+}
+/* sibling combinator */
+p + h3{
+    text-decoration: underline;
+}
+.upvote + button{
+    background-color: blue;
+    color: bisque;
+}
+/* child combinator */
+div > input{
+    background-color: rgb(239, 102, 4);
+}
+ /* attribute selecter */
+input[type="text"] {
+     color: rgb(51, 10, 254);
+}
+input[type="password"] {
+     color: red;
+}
+input[type]{
+    background-color: aqua;
+}
+/* psedo class */
+/* :hover */
+button:hover{
+    background-color: black;
+    color: white;
+}
+h3:hover{
+    text-decoration: none;
+}
+/* :active */
+button:active{
+    background-color: #b92b27;
+    color: yellow;
+}
+/* :checked */
+input[type="radio"]:checked + label{
+    color: #f40d05;
+    font-size: large;
+    font-weight: bold;
+}
+/* :nth-of-type */
+div:nth-of-type(2n) {
+    background-color: rgb(250, 245, 239);
+}
+/* casecading property */
+h3{
+    background-color: yellow;
+}
+h3{
+    background-color: rgb(237, 167, 117);
+}
