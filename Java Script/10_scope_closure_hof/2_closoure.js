@@ -1,9 +1,11 @@
 ////normal function
 // function createCounter(){
+//     console.log("hi");
 //     function increment(){
 //         console.log("Mani Sankar Pandit")
 //     }
 //     increment();
+    
 // }
 // createCounter();
 
@@ -68,16 +70,16 @@
 // const n = double();
 // n();
 
-function double(value){
-    return function execute(num){
-        return value*num;
-    }
-}
-// const n = double(20);
-// console.log(n(5));
-//or
-const n = double(20)(5);
-console.log(n);
+// function double(value){
+//     return function execute(num){
+//         return value*num;
+//     }
+// }
+// // const n = double(20);
+// // console.log(n(5));
+// //or
+// const n = double(20)(5);
+// console.log(n);
 
 
 
